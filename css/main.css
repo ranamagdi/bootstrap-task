@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header .contact{
+    background-color: #081e35;
+    padding: 5px 0;
+}
+.header .contact span{
+    color:#93a3a7;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.header .contact p{
+    color:#93a3a7;
+    padding-right: 10px;
+    display: inline;
+}
+.header .contact .icon{
+    color: #02b3e0;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.header .contact .information{
+    display: inline-block;
+    margin-right: 30rem;
+}
+.header .contact .social{
+    display: inline-block;
+    
+}
+/*log-links start*/
+.header .log-links{   
+    padding: 15px 0;
+}
+.header .log-links .logo{
+    display: inline-block;
+    margin-right: 27rem;
+}
+.header .log-links .logo img{
+    width: 90%;
+    cursor: pointer;
+}
+.header .log-links .links{
+    display: inline-block;
+    
+}
+
+.header .log-links .links li{
+    display: inline;
+    padding-left: 13px;
+    
+}
+.header .log-links .links li a{
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header .log-links .links li a.active{
+    color: #02b3e0;
+   
+}
+.header .log-links .links li select{
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*home*/
+
+.home{
+    background-image: url(../images/home2.jpg);
+    background-size: cover;
+
+   
+}
+.home .text{
+    display: inline-block;
+    margin:13% 0;
+} 
+.home .text h2{
+    font-weight: 700;
+    color: #071e33;
+    text-align: left;
+    font-size: 63px;
+}
+.home .text p{
+    font-size: 22px;
+    color: #071e33;
+}
+.home .text button{
+    background-color: #02b3e0;
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 10px 26px;
+}
+/*welcome start*/
+.welcome{
+    margin-top: 25px;
+}
+.welcome h2{
+ text-transform: uppercase;
+ text-align: center;
+ padding: 20px 0 8px 0;
+}
+.line{
+    width: 6%;
+    height: 2px;
+    background-color: #02b3e0;
+    margin: 0 auto 0 auto;
+}
+.welcome p{   
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.welcome .content .text{
+    margin-top: 8px;
+}
+.welcome .content .text h3{
+  font-size:18px ;
+  padding-bottom: 8px;
+}
+.welcome .content .text h4{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    color: #555;  
+    line-height: 26px;
+    padding-bottom: 8px;
+}
+.welcome .content .text p{
+    text-align: left;
+    padding-bottom: 8px;
+}
+.welcome .content .text ul {
+    list-style-type: none;
+    padding: 0;
+}
+.welcome .content .text ul li{
+    padding-bottom: 8px;
+}
+.welcome .content .text ul li .icon{
+
+    padding-right: 4px;
+    color: #02b3e0;
+}
+
+.welcome .content .image img{
+    padding-left: 50px;
+}
+/*service start*/
+.service{
+    margin-top: 25px;
+}
+.service h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 8px 0;
+}
+
+.service p{   
+       text-align: center;       
+       padding-bottom: 8px;
+       padding-top: 8px;
+}
+
+.service .content .text{
+       margin-top: 8px;
+       padding: 20px;
+       text-align: center;
+       background: #fff;
+       border: 1px solid #dedede;
+   
+     
+}
+.service .content .text h3{
+    padding-top: 8px;
+    font-size:18px ;       
+    text-align: center;
+}
+/*client start*/
+.client{
+    margin-top: 25px;
+}
+.client h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 8px 0;
+}
+.client p{
+       text-align: center;       
+       padding-bottom: 8px;
+       padding-top: 8px;
+
+}
+.client .content .image{
+    margin-top: 8px;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    opacity: .5;
+    
+}
+.client .content .image img{
+    width: 100%;
+    height: 43%;
+}
+/*Testimonials start*/
+.testimonials{
+    margin-top: 25px;
+}
+.testimonials h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 8px 0;
+}
+
+.testimonials p{   
+       text-align: center;       
+       padding-bottom: 8px;
+       padding-top: 8px;
+      
+}
+
+.testimonials .content .text{
+       margin-top: 8px;
+       padding: 20px;
+       text-align: center;
+      
+   
+     
+}
+.testimonials .content .text p{
+    font-style: italic;
+    padding: 22px 15px;
+    border-radius: 15px 15px 0 15px;
+    border: 1px solid #dcdcdc;
+    background-color: #f1f1f1;
+    color: #686868;
+}
+.testimonials .content .text h3{
+    padding-top: 8px;
+    font-size:18px ;       
+    text-align: center;
+}
+.testimonials .content .text h4{
+    padding-top: 8px;
+    font-size:16px ;    
+    font-weight: 400;
+    color: #686868; 
+    text-align: center;
+}
+
+.testimonials .content .btn button{
+ display: inline-block;
+ width: 12px;
+ height: 12px;
+ border-radius: 50%;
+ border: none;
+ background-color:#ddd;
+
+}
+.testimonials .content .btn button.active{
+    background-color: #02b3e0;
+}
+/*footer start*/
+.footer{
+    margin-top: 25px;
+    background-color: #02b3e0;
+    color: white;
+}
+.footer .content h4{
+    padding-bottom: 8px;
+    padding-top: 18px;
+}
+.footer .content p{ 
+    padding: 0;
+    margin: 0 0 30px 0;
+    width: 140%;
+}
+
+.footer .content .btn button{
+    border: white solid 3px;
+    border-radius: 3px;    
+    background-color: #02b3e0;
+    padding: 8px 26px;
+    color: white;
+    font-weight: 700;
+    margin-top: 63px;
+    margin-left: 23.5rem;
+}
+@media(max-width:1100px){
+    .footer .content p{
+        width: 100%;
+    }
+    .footer .content .btn button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(max-width:600px){
+    
+.welcome .content .image img{
+    width: 90%;
+}
+.home{
+    background-position: center;
+}
+.home .text{
+    text-align: center;
+   
+}
+.home .text h2{
+    text-align: center;
+}
+
+}
+@media(max-width:800px){    
+.client .content .image{
+        
+   padding: 0;
+   margin: 0;
+        
+}
+.client .content .image img{
+    width: 60%;
+    height: 33%;
+}
+}
